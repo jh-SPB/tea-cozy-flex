@@ -1,0 +1,65 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+#fixed-header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+}
+
+#tea-cozy-container {
+    float: left;
+    margin-left: 10px;
+    height: 50px;
+}
+
+#tea-cozy-container img {
+    height: 50px;
+}
+
+#top-links {
+    float: right;
+    text-align: center;
+    margin-left: auto;
+}
+
+#top-links nav a {
+    color: seashell;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#second-section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+#second-section-container img {
+    height: 700px;
+    width: 1200px;
+}
+
+#our-mission-container {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+}
+
+#tea-month-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
