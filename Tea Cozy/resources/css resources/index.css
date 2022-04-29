@@ -7,6 +7,8 @@ body {
     text-align: center;
 }
 
+/* Header and Nav Bar Section */
+
 #fixed-header {
     height: 69px;
     border-bottom: 1px solid seashell;
@@ -36,6 +38,8 @@ body {
     margin-right: 5px;
 }
 
+/* Mission Section */
+
 #second-section-container {
     display: flex;
     justify-content: center;
@@ -51,15 +55,91 @@ body {
 
 #our-mission-container {
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
 }
 
+/* Tea Month Section */
+
 #tea-month-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     height: auto;
     width: auto;
+}
+
+#tea-headings {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#tea-pics {
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.tea-box {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 70px;
+}
+
+.tea-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.tea-box p {
+    margin-top: 10px;
+    position: relative;
+}
+
+/* Locations Section */
+
+#locations {
+    margin: 10px auto;
+    background-image: url("../images/locations.webp");
+    background-position: center;
+    background-size: cover;
+    height: max-content;
+    width: 80%;
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+ #locations-container img {
+    max-width: 1000px;
+    max-height: 500px;
+} 
+
+
+#location-boxes-container {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.location {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    opacity: .8;
+    margin: 10px;
+    block-size: fit-content;
+}
+
+#locations h2,  #location-boxes-container{
+    position: relative;
+    top: 100px;
+}
+
+/* Footer Contact Information */
+
+#contact-info {
+    height: 200px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
 }
